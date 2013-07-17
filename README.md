@@ -1,5 +1,5 @@
--Tika4XPages
-============
+Tika4XPages
+===========
 
 OPENNTF
 _______
