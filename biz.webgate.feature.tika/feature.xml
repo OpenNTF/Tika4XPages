@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="biz.webgate.feature.tika"
+      label="Tika"
+      version="1.0.0.qualifier">
+
+   <description>
+      A Integration of Apache Tika in XPages
+   </description>
+
+   <copyright url="http://www.webgate.biz">
+      © Copyright WebGate Consulting AG, 2012
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="biz.webgate.dominoext.tika"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="biz.webgate.dominoext.tika.library"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

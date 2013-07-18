@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Project
+Bundle-SymbolicName: biz.webgate.dominoext.tika;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: biz.webgate.dominoext.tika.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ biz.webgate.dominoext.tika.library,
+ com.ibm.notes.java.api,
+ com.ibm.commons,
+ com.ibm.xsp.core,
+ com.ibm.xsp.domino
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: biz.webgate.dominoext.tika,
+ biz.webgate.dominoext.tika.beans,
+ biz.webgate.dominoext.tika.library
