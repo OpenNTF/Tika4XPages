@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex">
+
+
+	<xe:applicationLayout id="applicationLayout1">
+		<xp:callback facetName="facetMiddle" id="facetMiddle"></xp:callback>
+		<xe:this.facets>
+			<xp:callback facetName="facetRight" id="facetRight"
+				xp:key="RightColumn">
+			</xp:callback>
+			<xp:callback facetName="facetLeft" id="facetLeft"
+				xp:key="LeftColumn">
+			</xp:callback>
+		</xe:this.facets>
+		<xe:this.configuration>
+			<xe:oneuiApplication
+				navigationPath="#{javascript:compositeData.navigationPath}"
+				placeBarName="#{javascript:compositeData.title}" productLogo=""
+				titleBarName="File Upload Demo">
+
+
+
+				<xe:this.titleBarTabs>
+					<xe:pageTreeNode label="File Upload"
+						selection="/home" page="/file_upload.xsp">
+					</xe:pageTreeNode>
+				</xe:this.titleBarTabs>
+
+
+
+			</xe:oneuiApplication>
+		</xe:this.configuration>
+
+	</xe:applicationLayout>
+	
+</xp:view>

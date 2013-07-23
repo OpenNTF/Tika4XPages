@@ -1,0 +1,9 @@
+.infoTbl{
+border-collapse:collapse;
+}
+
+.infoTbl tr, .infoTbl td
+{
+	padding: 3px;
+	border: 1px solid black;
+}
